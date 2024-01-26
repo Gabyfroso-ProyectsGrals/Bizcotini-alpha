@@ -1,0 +1,214 @@
+{
+    "gride": {
+        "disponibles": ["tortas", "alfajores", "galletitas", "clasicos", "sorprendeme"],
+        "funcion":{
+            "tortas":1000,
+            "alfajores":2000,
+            "galletitas":3000,
+            "sorprendeme":4000
+        },
+        "tags que interactuan":{
+            "multysabores": "Permite poner un bordeado arcoiris",
+            "vegetariano": "bordeado verde oscuro",
+            "vegano": "bordeado verde claro"
+        }
+    },
+    "tortas": [
+        {
+            "name": "Torta de hojaldre",
+            "id": 1001,
+            "precio": 1000,
+            "description": "",
+            "img": "/Bizcotini-alpha/img/tortas/",
+            "tags": ["multysabores"]
+        },
+        {
+            "name": "Tronco de Arbol",
+            "id": 1002,
+            "precio": 1000,
+            "description": "Realizado a puro chocolate y dulce de leche",
+            "img": "/Bizcotini-alpha/img/tortas/",
+            "tags": ["dulce de leche", "chocolate"]
+        },
+        {
+            "name": "TortaBizcoti",
+            "id": 0,
+            "precio": 4000,
+            "description": "Una de las tortas principales que tenemos para vos, se puede realizar y entregar entre 12 y 18 horas, pero puede ser entregada en 8 si tiene alguna bandeja donde será preparada y almacenada. Eso si, lo recomendable es esperar a que se enfrie para estar lista",
+            "img": "/Bizcotini-alpha/img/tortas/TortaBizcoti.jpg",
+            "tags": [
+                "pastel",
+                "multysabores",
+                "frutilla",
+                "vainilla",
+                "vegetariano",
+                "leche",
+                "cacao",
+                "postre",
+                "postre frio"
+            ]
+        }
+    ],
+    "alfajores": [
+        {
+            "name": "Alfajor de maicena",
+            "id": 2001,
+            "precio": 1000,
+            "description": "",
+            "img": "/Bizcotini-alpha/img/alfajores/",
+            "tags": []
+        }
+    ],
+    "galletitas": [
+        {
+            "name": "Galletitas de avena",
+            "id": 3001,
+            "precio": 100,
+            "description": "",
+            "img": "/Bizcotini-alpha/img/galletitas/",
+            "tags": []
+        }
+    ],
+    "clasicos": [
+        {
+            "name": "Factura con dulce de leche",
+            "id": 4001,
+            "precio": 150,
+            "description": "",
+            "img": "/Bizcotini-alpha/img/clasicos/factura-dulcedeleche.jpg",
+            "tags": []
+        },
+        {
+            "name": "Factura con crema",
+            "id": 4002,
+            "precio": 150,
+            "description": "",
+            "img": "/Bizcotini-alpha/img/clasicos/index.jpg",
+            "tags": []
+        },
+        {
+            "name": "Factura con crema alargada",
+            "id": 4003,
+            "precio": 150,
+            "description": "",
+            "img": "/Bizcotini-alpha/img/clasicos/factura-crema-alargada.jpg",
+            "tags": []
+        }
+    ],
+    "sorprendeme": [
+        {
+            "name": "galleta con baño",
+            "id": 5000,
+            "precio": 1000,
+            "description": "",
+            "img": "/Bizcotini-alpha/img/sorprendeme/",
+            "tags": []
+        }
+    ],
+    "undefined": [
+        {
+            "name": "error",
+            "id": 0,
+            "precio": 1000,
+            "description": "error en mostrar el producto",
+            "img": ".//Bizcotini-alpha/img/index/error.ico",
+            "tags": [
+                "error",
+                "icono",
+                "no-consumible"
+            ]
+        }
+    ],
+
+    "examples":[
+        {
+            "name": "torta",
+            "id": 0,
+            "precio": 2000,
+            "description": " descripcion torta generica descripcion torta generica descripcion torta generica",
+            "img": ".//Bizcotini-alpha/img/tortas/index.jpg",
+            "tags": [
+                "pastel",
+                "generico",
+                "consumible"
+            ]
+        },
+        {
+            "name": "torta",
+            "id": 0,
+            "precio": 2000,
+            "description": "torta generica descripcion descripcion torta generica descripcion torta generica descripcion torta generica descripcion torta generica descripcion torta generica descripcion torta generica",
+            "img": "/Bizcotini-alpha/img/tortas/index.jpg",
+            "tags": [
+                "generico",
+                "consumible"
+            ]
+        },
+        {
+            "name": "clasicos",
+            "id": 0,
+            "precio": 2000,
+            "description": "clasicos descripcion generica descripcion torta generica descripcion torta generica",
+            "img": "/Bizcotini-alpha/img/clasicos/index.jpg",
+            "tags": [
+                "pastel",
+                "generico",
+                "consumible"
+            ]
+        },
+        {
+            "name": "torta",
+            "id": 0,
+            "precio": 2000,
+            "description": "torta generica",
+            "img": "/Bizcotini-alpha/img/tortas/index.jpg",
+            "tags": [
+                "pastel",
+                "generico",
+                "consumible"
+            ]
+        },
+        {
+            "name": "torta",
+            "id": 0,
+            "precio": 2000,
+            "description": "torta generica descripcion descripcion torta generica descripcion torta generica descripcion torta generica descripcion torta generica descripcion torta generica descripcion torta generica",
+            "img": "/Bizcotini-alpha/img/tortas/index.jpg",
+            "tags": [
+                "generico",
+                "consumible"
+            ]
+        },
+        {
+            "name": "Galleta",
+            "id": 0,
+            "precio": 2000,
+            "description": "Galleta descripcion generica descripcion torta generica descripcion torta generica",
+            "img": "/Bizcotini-alpha/img/galletitas/index.jpg",
+            "tags": [
+                "galleta",
+                "galletita",
+                "galletitas",
+                "generico",
+                "galletita",
+                "galletitas",
+                "generico","galletita",
+                "galletitas",
+                "generico",
+                "consumible"
+            ]
+        },
+        {
+            "name": "torta",
+            "id": 0,
+            "precio": 2000,
+            "description": "torta generica",
+            "img": "/Bizcotini-alpha/img/tortas/index.jpg",
+            "tags": [
+                "pastel",
+                "generico",
+                "consumible"
+            ]
+        }
+    ]
+}

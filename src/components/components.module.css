@@ -1,0 +1,368 @@
+* {
+    position: relative;
+}
+
+.btn {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+    background: none;
+    border: none;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+:root{
+    --marron-btn: rgb(223, 169, 127);
+
+    --marron-claro: rgb(206, 138, 75);
+    --marron-claro-transparente: rgba(230, 129, 53, .2);
+
+    --marron-oscuro: rgb(93, 53, 22);
+    --marron-oscuro-transparente: rgba(106, 49, 6, .2);
+}
+
+
+.fixedheader {
+    position: fixed;
+    display: flex;
+
+    width: 100%;
+
+    padding-bottom: 2em;
+
+    flex-direction: column;
+    flex-wrap: nowrap;
+    z-index: 10;
+}
+
+header {
+    background-color: var(--marron-oscuro);
+    height: 60px;
+}
+
+header, header * {
+    height: 60px;
+}
+
+header>nav {
+    position: absolute;
+    width: 100%;
+}
+
+header>nav>ul {
+    padding: 0 12px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hli {
+    width: 4em;
+    height: 4em;
+
+    filter: drop-shadow(-1px 0px 1px --marron-oscuro);
+}
+
+.index>img {
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+}
+
+.search {
+    background-color: blue;
+}
+
+
+.util>svg {
+    width: 100%;
+    height: 100%;
+}
+
+.util>button {
+    z-index: 12;
+}
+
+.util>button:hover {
+    cursor: url('../img/index/canasta.ico'), auto;
+}
+
+/*
+
+****
+
+***************
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  NavAside  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+***************
+
+****
+
+*/
+
+.NavAside {
+    height: auto;
+    background-image: url('../img/index/galleta.ico');
+    background-repeat: repeat;
+    background-size: 5em 5em;
+    background-color: var(--marron-claro);
+    animation: fallAnimation 4s linear infinite;
+}
+
+@keyframes fallAnimation {
+    0% {
+        background-position-y: 0;
+    }
+
+    100% {
+        background-position-y: 10em;
+    }
+}
+
+.NavAside>:first-child {
+    background-color: var(--marron-claro-transparente);
+    box-shadow: 0 2px 2px var(--marron-claro-transparente);
+}
+
+.ali {
+    display: flex;
+    align-items: flex-end;
+    justify-content: baseline;
+    width: 20vh;
+    height: 15vh;
+
+    margin: 1vh .4vh;
+}
+
+.ali * {
+    transition: transform .8s ease-in-out;
+    transform: scale(1);
+}
+
+
+.ali>button {
+
+    -webkit-box-shadow: 0px 4px 2px 0px rgba(0, 0, 0, 0.41);
+    -moz-box-shadow: 0px 10px 8px 0px rgba(0, 0, 0, 0.41);
+    box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.41);
+
+    z-index: 12;
+}
+
+.ali:hover * {
+    cursor: url('../img/index/cursor.ico'), auto;
+    transform: scale(1.2);
+}
+
+.ali>p {
+    width: 100%;
+    margin-bottom: -2px;
+
+    text-align: center;
+
+    font: italic 1.4rem cursive;
+    letter-spacing: 2px;
+
+    word-wrap: break-word;
+    z-index: 11;
+
+    color: rgb(0, 0, 0);
+    background-color: rgba(240, 248, 255, 0.6);
+
+}
+
+.ali>img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+
+.expansor {
+    position: absolute;
+
+    bottom: -40px;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+    width: 50px;
+    height: 50px;
+}
+
+.expansor>svg {
+    filter: opacity(.8);
+}
+
+
+/*
+
+****
+
+***************
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  ASIDE  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+***************
+
+****
+
+*/
+
+.btnAside {
+    margin: 10px 0;
+    height: calc(100% - 10px);
+
+    font-size: 1.6rem;
+}
+
+.btnAside:hover {
+    animation: btnanimation .5s forwards;
+}
+
+@keyframes btnanimation {
+    0% {
+        -webkit-box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0.39);
+        -moz-box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0.39);
+        box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0.39);
+    }
+
+    80% {
+        -webkit-box-shadow: inset 0px 0px 5px 3px rgba(0, 0, 0, 0.39);
+        -moz-box-shadow: inset 0px 0px 5px 3px rgba(0, 0, 0, 0.39);
+        box-shadow: inset 0px 0px 5px 3px rgba(0, 0, 0, 0.39);
+    }
+
+    100%{
+        -webkit-box-shadow: inset 0px 0px 3px 2px rgba(0, 0, 0, 0.39);
+        -moz-box-shadow: inset 0px 0px 3px 2px rgba(0, 0, 0, 0.39);
+        box-shadow: inset 0px 0px 3px 2px rgba(0, 0, 0, 0.39);
+    }
+}
+
+
+.divMenu {
+    position: fixed;
+    margin-top: 60px;
+    width: 100%;
+    height: calc(100vh - 50px);
+
+    z-index: 11;
+}
+
+.divMenu>button {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.divMenu>aside {
+    position: absolute;
+    right: 0;
+    margin: auto;
+
+    width: 0;
+    height: calc(100% - 10px);
+
+    animation: expand 1s forwards;
+    background-color: var(--marron-claro);
+    box-shadow: -2px 9px 13px 0px var(--marron-oscuro);
+    z-index: 12;
+}
+
+@keyframes expand {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 20em;
+    }
+}
+
+
+
+.divMenu>aside>ul {
+    display: flex;
+    flex-direction: column;
+
+    height: 100%;
+}
+
+.AsideLi {
+    display: grid;
+
+    width: 100%;
+
+    text-align: center;
+    align-items: center;
+
+    outline: 2px solid var(--marron-oscuro);
+}
+.AsideLi button{
+    display: grid;
+    align-items: center;
+    align-self: center;
+
+
+    background: var(--marron-btn);
+    border: none;
+}
+
+.ulConfig{
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+
+    animation: ulconfiganimation 2s forwards;
+}
+.ulConfig>li{
+    display: grid;
+    flex-grow: 1;
+    width: 100%;
+
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+}
+
+.ulConfig>li>abbr{
+    display: flex;
+    align-items: center;
+}
+
+@keyframes ulconfiganimation {
+    0%{
+        height: 0%;
+    }
+    100%{
+        height: 12em;
+    }
+}
+
+
+
+/*
+
+****
+
+***************
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  FOOTER  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+***************
+
+****
+
+*/
+
+footer {
+    display: block;
+    height: 10em;
+
+    background-color: rgb(120, 13, 63);
+}

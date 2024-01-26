@@ -1,0 +1,103 @@
+:root{
+    --CarroMarron-btn: rgb(255, 163, 92);
+
+    --CarroMarron-claro: rgb(234, 168, 111);
+    --CarroMarron-claro-transparente: rgba(230, 129, 53, .5);
+
+    --CarroMarron-oscuro: rgb(57, 29, 8);
+    --CarroMarron-oscuro-transparente: rgba(106, 49, 6, .5);
+}
+
+.title {
+    font-size: 3rem;
+    text-align: center;
+}
+
+/*
+    Carro
+*/
+
+.CarritoBtns{
+    display: flex;
+    flex-direction: row;
+    
+    width: 100%;
+    height: 80px;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.CarritoBtns>button{
+    font-size: 1.4rem;
+    min-height: 35px;
+    
+    width: 30%;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    margin: 2px 15px;
+}
+
+/*
+    SOLO PRODUCTOEDIT
+*/
+
+article.articleEdit>div{
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+    margin: 10px 0;
+}
+
+/*
+
+*/
+
+article.productoEdit{
+    display: flex;
+    flex-direction: column;
+    
+    height: auto;
+
+    background-color: var(--CarroMarron-oscuro-transparente);
+    border-radius: 20px;
+    padding: 15px 0;
+}
+
+.productoEdit>form>div{
+    display: flex;
+    flex-direction: column;
+}
+
+.productoEdit textarea{
+    background: burlywood;
+    border: 2px solid var(--CarroMarron-oscuro-transparente);
+    border-radius: 10px;
+    margin: 10px 5px;
+    padding: 1em;
+
+    flex-grow: 1;
+
+    font-size: 1.2rem;
+}
+
+.productoEdit input[type='number']{
+    height: 60px;
+    width: 80px;
+    text-align: center;
+
+    font-size: 20px;
+}
+
+.PrecioMayor{
+    display: grid;
+    align-items: center;
+    align-content: center;
+
+    font-size: 1.4rem;
+}
+.PrecioMayor>svg{
+    width: 40px;
+    height: 40px;
+}

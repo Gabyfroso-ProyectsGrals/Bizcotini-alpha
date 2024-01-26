@@ -1,0 +1,22 @@
+{
+    "productos": [
+        {
+            "sapo-vegano": {
+                "id": 56,
+                "tag": ["vegano", "sapo", "sapovegano"]
+            }
+        }
+    ],
+    "carro":[
+        {
+            "id": 56,
+            "n": 66,
+            "instrucciones": "x instrucciones"
+        },
+        {
+            "id": 5,
+            "n": 2,
+            "instrucciones": "y instrucciones"
+        }
+    ]
+}

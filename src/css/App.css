@@ -1,0 +1,55 @@
+*{
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+.App{
+  min-height: 100vh;
+  height: auto;
+}
+
+:root{
+  --MainMarron-btn: rgb(255, 163, 92);
+
+  --MainMarron-claro: rgb(234, 168, 111);
+  --MainMarron-claro-transparente: rgba(230, 129, 53, .5);
+
+  --MainMarron-oscuro: rgb(57, 29, 8);
+  --MainMarron-oscuro-transparente: rgba(106, 49, 6, .5);
+}
+
+.main{
+  padding: 18vh 0;
+  min-height: 120vh;
+
+  background-color: rgb(233, 148, 87);
+}
+
+ul{
+  list-style: none;
+}
+
+main {
+  margin: 10px 10px;
+  border: 4px solid var(--MainMarron-oscuro-transparente);
+  background-color: var(--MainMarron-claro);
+  padding: 2vh 2px;
+
+  min-height: 100vh;
+  height: auto;
+}
+main *{
+  overflow-x: hidden;
+}
+
+main p {
+  color: var(--MainMarron-oscuro);
+}
+
+main>:first-child{
+  text-align: center;
+  align-content: center;
+  align-self: center;
+  margin: 20px 0;
+}

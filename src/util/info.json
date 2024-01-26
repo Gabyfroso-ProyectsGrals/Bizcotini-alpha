@@ -1,0 +1,20 @@
+{
+    "pagename": "Bizcotini",
+    "indeximg": {
+        "icons": {
+            "ico": "/img/index/icon.ico"
+        },
+        "img":{
+            "logo": "/img/index/Logo.png"
+        }
+    },
+    "categorias":{
+        "names": ["tortas", "alfajores", "galletitas", "clasicos", "sorprendeme"],
+        "tortas": "img/tortas",
+        "alfajores": "img/alfajores",
+        "galletitas": "img/galletitas",
+        "clasicos": "img/clasicos",
+        "sorprendeme": "img/sorprendeme",
+        "undefined": "img/index"
+    }
+}
