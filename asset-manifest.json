@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Bizcotini-alpha/static/css/main.c3995adc.css",
+    "main.js": "/Bizcotini-alpha/static/js/main.6a26ad21.js",
+    "static/js/787.613fd03c.chunk.js": "/Bizcotini-alpha/static/js/787.613fd03c.chunk.js",
+    "static/media/galleta.ico": "/Bizcotini-alpha/static/media/galleta.518bca315933da05a22b.ico",
+    "static/media/Logo.png": "/Bizcotini-alpha/static/media/Logo.df52811a53fe811f560f.png",
+    "static/media/canasta.ico": "/Bizcotini-alpha/static/media/canasta.49fc8964ee17eaa97e15.ico",
+    "static/media/cursor.ico": "/Bizcotini-alpha/static/media/cursor.ea24c56f4da1b18e9f9f.ico",
+    "index.html": "/Bizcotini-alpha/index.html",
+    "main.c3995adc.css.map": "/Bizcotini-alpha/static/css/main.c3995adc.css.map",
+    "main.6a26ad21.js.map": "/Bizcotini-alpha/static/js/main.6a26ad21.js.map",
+    "787.613fd03c.chunk.js.map": "/Bizcotini-alpha/static/js/787.613fd03c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c3995adc.css",
+    "static/js/main.6a26ad21.js"
+  ]
+}
